@@ -5,7 +5,7 @@ Implementação feita para servir como base de criação de menus em console man
   * Lista para salvar os dados cadastrados;
   * Funções para melhorar a legibilidade e usabilidade do código;
 
-## Pontos a serem observados
+## Pontos no código a serem observados
 1. A variável **"opcao"** é uma string pois facilita o tratamento de entradas não aceitáveis ao utilizar o **switch case**;
 2. Na linha 21, a mensagem de entrada inválida é exibida somente se existe texto dentro da variável **"mensagemEntradaInválida"** a partir do resultado de uma condição realizada pelo operador ternário dentro do **Console.WriteLine**, o que só acontece se o usuário digitar uma opção fora das indicadas no default do **switch case** (linha 41);
       * Ainda sobre a mensagem de entrada inválida: a variável tem que ser "limpa", atribuida um valor vazio, em todos os cases funcionais para que ela não seja exibida se o usuário digitar uma opção válida;
