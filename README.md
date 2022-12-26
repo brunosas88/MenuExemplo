@@ -14,5 +14,5 @@ Implementação feita para servir como base de criação de menus em console man
 5. Para utilizar o **new string** com o valor de caracteres corretos, foi sempre adicionado o tamanho da palavra que está sendo inserida na mensagem mais os caracteres extras de espaços em branco e barras no começo e fim da mensagem (por isso o + 4);
   
 # Atenção!
-O código implementado não possui as verificações normalmente exigidas para uma avaliação criteriosa e deve ser utilizado apenas como base para uma implementação mais completa.
+O código apresentado não possui as verificações normalmente exigidas para uma avaliação criteriosa e deve ser utilizado apenas como base para uma implementação mais completa.
 
